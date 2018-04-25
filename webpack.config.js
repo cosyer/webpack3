@@ -7,10 +7,6 @@ const assetsViews = require("./assets-views")
 
 const api_host = "http://cloud.mydearest.cn"
 
-// 样式表，希望利用 link 标签引入
-// 使用概率较低的模块，希望后期需要的时候异步加载
-// 框架代码，希望能利用浏览器缓存下部分不易变动的代码
-
 module.exports = {
     entry: {
         main: './src/index.js',
