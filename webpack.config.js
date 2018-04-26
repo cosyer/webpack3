@@ -48,7 +48,7 @@ module.exports = {
         }
     },
     module: {
-        // loaders
+        // loaders较旧
         rules: [
             {
                 // 转译js、jsx文件
